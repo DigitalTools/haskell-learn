@@ -1,7 +1,7 @@
-ht = t head
+-- :t head
 -- type variables head :: [a] -> a 
 
-ft = t fst
+-- :t fst
 -- fst :: (a, b) -> a 
 
 
