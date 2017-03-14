@@ -20,3 +20,7 @@
 - Bounded
 - Num
 - Integral
+
+## Syntax in Functions
+
+- Pattern matching
