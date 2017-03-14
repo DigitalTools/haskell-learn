@@ -10,3 +10,13 @@
 - Tuple
   - how many
   - and type
+
+## Types and Typeclasses
+
+- ~ Interfaces
+- Eq
+- Ord
+- Enum
+- Bounded
+- Num
+- Integral
