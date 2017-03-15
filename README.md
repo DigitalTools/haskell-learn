@@ -24,3 +24,4 @@
 ## Syntax in Functions
 
 - Pattern matching
+- Where!?
