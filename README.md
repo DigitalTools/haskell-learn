@@ -42,3 +42,6 @@ can take functions as parameters
 can return functions as return values
 
 define what stuff is
+
+- Curried
+  - Partially applied functions
