@@ -27,3 +27,10 @@
 - Where!?
 - Let it be
 - Case expressions
+- few more recursive functions
+  - take
+  - replicate
+  - reverse
+  - repeat
+  - zip
+  - elem
