@@ -26,3 +26,4 @@
 - Pattern matching
 - Where!?
 - Let it be
+- Case expressions
