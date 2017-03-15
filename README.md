@@ -34,3 +34,4 @@
   - repeat
   - zip
   - elem
+- Quicksort
