@@ -35,3 +35,10 @@
   - zip
   - elem
 - Quicksort
+
+## Higher Order Functions
+
+can take functions as parameters
+can return functions as return values
+
+define what stuff is
