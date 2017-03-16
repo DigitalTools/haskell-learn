@@ -46,3 +46,4 @@ define what stuff is
 - Curried
   - Partially applied functions
 - High order functions
+- Maps and filters
