@@ -27,6 +27,9 @@
 - Where!?
 - Let it be
 - Case expressions
+
+## Recursion
+
 - few more recursive functions
   - take
   - replicate
@@ -36,14 +39,4 @@
   - elem
 - Quicksort
 
-## Higher Order Functions
-
-can take functions as parameters
-can return functions as return values
-
-define what stuff is
-
-- Curried
-  - Partially applied functions
-- High order functions
-- Maps and filters
+## [Higher Order Functions](06-higher-order-functions)
