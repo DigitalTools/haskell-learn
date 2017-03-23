@@ -1,3 +1,5 @@
-import Geometry as G
+import qualified Geometry.Sphere as Sphere  
+import qualified Geometry.Cuboid as Cuboid  
+import qualified Geometry.Cube as Cube  
 
-area = G.rectangleArea 2.3 6.2
+qbArea = Cube.area 3
