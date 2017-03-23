@@ -13,3 +13,9 @@ sr = surface $ Rectangle (Point 0 0) (Point 100 100)
 -- Rectangle 50 230 60 90 
 
 concentricCircles = map (Circle (Point 10 20)) [4,5,6,6]
+
+nudge :: Shape -> Float -> Float -> Shape  
+nudge (Circle (Point x y) r) a b = Circle (Point (x+a) (y+b)) r  
+nudge (Rectangle (Point x1 y1) (Point x2 y2)) a b = Rectangle (Point (x1+a) (y1+b)) (Point (x2+a) (y2+b))  
+
+mc = nudge (Circle (Point 34 34) 10) 5 10  
