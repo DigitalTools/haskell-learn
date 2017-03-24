@@ -1,3 +1,5 @@
+#!/usr/local/bin/python3
+
 # /usr/local/bin/custom_chrome.sh 
 # "Profile 14"
 # "http://learnyouahaskell.com/making-our-own-types-and-typeclasses#derived-instances"
@@ -29,7 +31,7 @@ sectionPath = chapter["sections"][sectionArg]
 
 url = urlBase + chapterPath + "#" + sectionPath
 args = "-a " + GOOGLE_CHROME
-chrome_args = "--args --profile-directory=" + PROFILE
+chrome_args = f"--args --profile-directory='{PROFILE}'"
 bashCommand = f"open {url} {args} {chrome_args}"
 print(bashCommand)
 os.system(bashCommand)
