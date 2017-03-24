@@ -1,7 +1,7 @@
 data Person = Person { firstName :: String  
                      , lastName :: String  
                      , age :: Int  
-                     } deriving (Eq)  
+                     } deriving (Eq, Show, Read)  
 
 mikeD = Person {firstName = "Michael", lastName = "Diamond", age = 43}  
 adRock = Person {firstName = "Adam", lastName = "Horovitz", age = 41}  
@@ -17,5 +17,5 @@ minew = mikeD == Person {firstName = "Michael", lastName = "Diamond", age = 43}
 
 bboys = [mca, adRock, mikeD]
 
-m_in_bboys = mikeD `elem` bboys
+mInBboys = mikeD `elem` bboys
 
