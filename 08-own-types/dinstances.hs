@@ -23,3 +23,15 @@ p = read "Person {firstName =\"Michael\", lastName =\"Diamond\", age = 43}" :: P
 
 j = read "Just 't'" :: Maybe Char
 
+-- True `compare` False  
+-- True > False  
+-- True < False  
+
+data Day = Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday   
+           deriving (Eq, Ord, Show, Read, Bounded, Enum)  
+
+mb = minBound :: Day
+
+alld = [minBound .. maxBound] :: [Day]  
+
+ts = [Thursday .. Sunday]
