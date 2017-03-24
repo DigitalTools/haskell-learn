@@ -19,3 +19,7 @@ bboys = [mca, adRock, mikeD]
 
 mInBboys = mikeD `elem` bboys
 
+p = read "Person {firstName =\"Michael\", lastName =\"Diamond\", age = 43}" :: Person
+
+j = read "Just 't'" :: Maybe Char
+
