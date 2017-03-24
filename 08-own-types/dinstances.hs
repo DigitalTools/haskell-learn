@@ -14,3 +14,8 @@ mimi = mikeD == mikeD
 -- true
 minew = mikeD == Person {firstName = "Michael", lastName = "Diamond", age = 43}   
 -- true
+
+bboys = [mca, adRock, mikeD]
+
+m_in_bboys = mikeD `elem` bboys
+
