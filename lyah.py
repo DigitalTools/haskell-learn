@@ -17,7 +17,8 @@ chapterPaths = {
     "path": "making-our-own-types-and-typeclasses",
     "sections": {
       "04": "derived-instances",
-      "05": "type-synonyms"
+      "05": "type-synonyms",
+      "06": "recursive-data-structures"
     }
   }
 }
